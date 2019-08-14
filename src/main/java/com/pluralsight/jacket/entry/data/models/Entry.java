@@ -22,6 +22,7 @@ public class Entry extends BaseModel {
 	return title;
     }
     public void setTitle(String title) {
+        log.debug(title);
 	this.title = title;
     }
 }
