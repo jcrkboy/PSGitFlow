@@ -28,6 +28,7 @@ public class JacketEntry {
     }
 
     public String getUrl() {
+        log.debug("hi!");
         return url;
     }
 
